@@ -1,0 +1,9 @@
+development:
+  dialect: mysql
+  datasource: root:password@tcp(localhost:3306)/treasure_md?parseTime=true&charset=utf8mb4&interpolateParams=true
+  dir: migrations
+
+# test:
+#   dialect: mysql
+#   datasource: root:password@tcp(localhost:3306)/test-treasure?parseTime=true&charset=utf8mb4&interpolateParams=true
+#   dir: migrations
